@@ -48,6 +48,7 @@ totalLetters += names [i] +", "
 //3.How do you access the last element of any array?
 let studentPromineo = ['Dowsaa', 'Hamda', 'Kamal', 'Abdi', 'Hidaayah'];
 console.log (studentPromineo[4]);
+
 //4. How do you access the first element of any array?
 console.log (studentPromineo [0])
 
@@ -109,3 +110,21 @@ arrayNumbers([1, 2, 4, 6, 204]);
 console.log(flag)
 
 //10. Write a function that takes an array of numbers and returns the average of all the elements in the array
+
+function totalNumber (numbers){
+    totalAll = 0;
+    for (let i = 0; i < numbers.length; i++){ 
+        totalAll += numbers[i]
+    }
+    totalAll = totalAll / numbers.length;
+    
+}
+totalNumber ([6,2,3,8,9]);
+console.log (totalAll)
+
+//11. Write a function that takes two arrays of numbers and returns true if the average of the elements in the first array is greater than the average of the elements in the second array.
+
+//12. Write a function called willBuyDrink that takes a boolean isHotOutside, and a number moneyInPocket, and returns true if it is hot outside and if moneyInPocket is greater than 10.50.
+
+
+//13. Create a function of your own that solves a problem
